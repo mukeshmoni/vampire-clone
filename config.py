@@ -19,9 +19,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID" , "-1001770039008"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Team Vampire")
 
-OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5432224567"))
-)
+OWNER_ID = int(getenv("OWNER_ID", "5432224567" ))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
