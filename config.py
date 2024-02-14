@@ -45,7 +45,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", "")
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/TMK_MUSICCHANNEL")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TMK_MUSICSUPPORT")
+    "SUPPORT_CHAT", "https://t.me/TMK_MUSICSUPPORT")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
